@@ -5,7 +5,7 @@ describe 'Artist' do
   }
 
 
-  describe '#initialize with #name' do
+  def '#initialize_with_name
     it 'accepts a name for the artist' do
       artist = Artist.new('Michael Jackson')
       expect(artist.name).to eq('Michael Jackson')
